@@ -11,9 +11,14 @@ class StringBuilder():
     def build(self):
         result = ""
         for str in self.__strings:
-            result += str
+            result += " " + str
         return result
-    
+
+sb = StringBuilder("Začatek")
+sb.append("prostředek").append("prostředek2")
+sb.append("konec.")
+sentence = sb.build() #vystavení dat v celku
+print(sentence)
 
 
 
