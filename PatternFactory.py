@@ -38,7 +38,7 @@ print(a.start())
 print(n.start())
 
 
-
+#možno zakomponovat jako meal v pizza app
 
 
 
