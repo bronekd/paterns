@@ -8,6 +8,8 @@ class StringBuilder():
         self.__strings.append(new_str)
         return self
 
+    def show_data(self):
+        print(self.__strings)
     def build(self):
         result = ""
         for str in self.__strings:
@@ -17,6 +19,7 @@ class StringBuilder():
 sb = StringBuilder("Začatek")
 sb.append("prostředek").append("prostředek2")
 sb.append("konec.")
+sb.show_data()
 sentence = sb.build() #vystavení dat v celku
 print(sentence)
 
