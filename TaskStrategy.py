@@ -1,0 +1,4 @@
+# skopírovat od učitele
+
+
+
