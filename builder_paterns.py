@@ -1,4 +1,4 @@
-# bilder patterns - zakomponovat do pizza app k vytvoření objednávky.
+# builder patterns - zakomponovat do pizza app k vytvoření objednávky.
 # postupně ukládá do seznamu a pak uloží celý seznam někam.
 
 class Auto:
