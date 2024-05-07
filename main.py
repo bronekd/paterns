@@ -15,3 +15,5 @@ singleton_instance2 = Singleton()
 print(singleton_instance1)
 print(singleton_instance2)
 print(singleton_instance1 is singleton_instance2)  # Vypíše True, pretože ide o tú istú inštanciu
+
+# použití v pizza app v main v načítání dat. tam kde je order_queue. 
