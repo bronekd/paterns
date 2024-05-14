@@ -9,18 +9,18 @@ class WrongMonthError(Exception):
 try:
     month = int(input("Zadej číslo měsíce od 1 do 12: "))
 
-    if month not in range(1,13):
+    if month not in range(1, 13):
         raise WrongMonthError
 
-    if num < 1 or num > 12:
+    if month < 1 or month > 12:
         print("Zadal jsi špatné číslo takový měsíc nemáme ")
-    elif num in [1, 2, 12]:
+    elif month in [1, 2, 12]:
         print("Zadal jsi měsíc zima.")
-    elif num >= 3 and num <= 5:
+    elif month >= 3 and month <= 5:
         print("Zadal jsi měsíc léta.")
-    elif num >= 6 and num <= 8:
+    elif month >= 6 and month <= 8:
         print("Zadal jsi měsíc léta.")
-    elif num >= 9 and num <= 11:
+    elif month >= 9 and month <= 11:
         print("Zadal jsi měsíc léta.")
 except ValueError:
     print("Nezadal jsi číslo")
